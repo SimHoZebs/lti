@@ -1,0 +1,14 @@
+{
+  "type": "module",
+  "dependencies": {
+    "@kth/canvas-api": "5.0.0-beta.4"
+  },
+  "name": "lti",
+  "module": "index.ts",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
