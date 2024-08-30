@@ -1,14 +1,16 @@
 {
-  "type": "module",
+  "name": "app",
+  "version": "1.0.50",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "bun run --watch ./src/index.js"
+  },
   "dependencies": {
-    "@kth/canvas-api": "5.0.0-beta.4"
+    "@elysiajs/cookie": "^0.8.0",
+    "elysia": "latest"
   },
-  "name": "lti",
-  "module": "index.ts",
   "devDependencies": {
-    "@types/bun": "latest"
+    "bun-types": "latest"
   },
-  "peerDependencies": {
-    "typescript": "^5.0.0"
-  }
+  "module": "./src/index.js"
 }
